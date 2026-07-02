@@ -1,0 +1,12 @@
+{
+  "name": "serenity-salon-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "preview": "npx serve .",
+    "deploy": "wrangler pages deploy . --project-name=serenity-salon-site"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
